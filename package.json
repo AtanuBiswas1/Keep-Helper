@@ -1,0 +1,25 @@
+{
+  "name": "keep-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtanuBiswas1/Keep-Helper.git"
+  },
+  "author": "Atanu Biswas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtanuBiswas1/Keep-Helper/issues"
+  },
+  "homepage": "https://github.com/AtanuBiswas1/Keep-Helper#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.3.0"
+  }
+}
